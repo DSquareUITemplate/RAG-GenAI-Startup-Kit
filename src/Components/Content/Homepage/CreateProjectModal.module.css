@@ -1,0 +1,112 @@
+.modalBody {
+    padding: 0 40px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.header{
+    background: #000048 0% 0% no-repeat padding-box;
+border-radius: 8px 8px 0px 0px;
+margin-bottom: 20px;
+padding: 12px;
+display: flex;
+align-items: center;
+}
+
+.project {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+    /* padding-top: 20px; */
+    margin-left: 30px;
+    align-items: center;
+
+}
+
+.language {
+    font-weight: medium;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #000048;
+    border-radius: 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 8px 10px 8px 10px;
+    border: 0;
+    background-color: #f2f2f2;
+}
+
+.create {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: #000048;
+    font: normal normal 600 18px/22px;
+    border: 1px solid #000048;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.createDisabled{
+    background: #D0D0CE 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: #000;
+    font: normal normal 600 18px/22px;
+    border: 1px solid #f2f2f2;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    opacity: 50%;
+}
+
+.create:active,
+.create:hover {
+    transition: ease-out 0.3s;
+    background: #000048 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    border-color: #000048;
+}
+
+.dropdownContent{
+    list-style: none;
+    padding-left: 0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #92BAE6;
+    border-radius: 8px;
+}
+
+/* .language:hover{
+    box-shadow: inset;
+    box-shadow: 0px 0px 2px #2F78C4;
+} */
+.dropdownList{
+    padding: 6px 10px 6px 10px;
+    text-align: left;
+    cursor: pointer;
+}
+li:hover{
+    background: #F7F7F5 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+}
+.language{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.language img{
+    width: 25px;
+    align-items: center;
+    margin-bottom: 0;
+}
+.language.active img{
+    transform: rotate(180deg);
+}
+
+.close{
+    width: 15px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+

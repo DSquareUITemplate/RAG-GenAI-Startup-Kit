@@ -1,0 +1,248 @@
+.container {
+    padding: 10px;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 0 8px 8px 0;
+    height: 70vh;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #000048;
+}
+
+.close {
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #2F78C4;
+    cursor: pointer;
+}
+
+.close img {
+    width: 10px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.scoreBoard {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    height: 59.8vh;
+}
+
+.firstRow {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.speedometer {
+    width: 150px;
+    height: 100px;
+}
+
+.scorePercent {
+    margin-left: auto;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+.scoreTitle {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #000000;
+    /* margin-bottom: 5px; */
+    margin-bottom: 0;
+    /* font-size: 14px; */
+}
+
+.score {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #D0DE5A;
+    /* margin-bottom: 5px; */
+    margin-bottom: 0;
+}
+
+.similarity {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: 'Gellix-Light', sans-serif;
+    margin-bottom: 0;
+    /* font-size: 14px; */
+}
+
+.border {
+    border: 1px solid #707070;
+    opacity: 1;
+    margin: 0;
+}
+
+.secondRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+@font-face {
+    font-family: 'Gellix-Light';
+    src: url('C:/Users/909663/Downloads/genaiui_sample/genaiui_sample/Genai_UI/src/font/Gellix-Light.woff');
+    /* src:  url('../../../font/Gellix-Regular.woff'); */
+    /* src:  url('../../../font/Gellix-Bold.woff'); */
+    /* font-family: 'Gellix-Bold'; */
+}
+
+.secondRow p {
+    font-family: 'Gellix-Light', sans-serif;
+    /* font-size: 14px; */
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.secondRow h6 {
+    /* font-family: 'Gellix-Bold'; */
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.thirdRow {
+    overflow-y: scroll;
+    height: 25vh;
+}
+
+.thirdRow::-webkit-scrollbar {
+    width: 6px;
+}
+
+.thirdRow::-webkit-scrollbar-track {
+    background-color: #F8F8F8;
+}
+
+.thirdRow::-webkit-scrollbar-thumb {
+    background-color: #000048;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.thirdRow::-webkit-scrollbar-thumb:hover {
+    background-color: #000048;
+}
+
+.sourceContainer {
+    border: 1px solid var(--unnamed-color-2f78c4);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #2F78C4;
+    border-radius: 8px;
+    margin: 10px;
+    align-items: center;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sourceHeader{
+    background: #3078C4 0% 0% no-repeat padding-box;
+    border: 1px solid #2F78C4;
+    border-radius: 8px 8px 0px 0px;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.index {
+    background-color: #D3392E;
+    color: #FFFFFF;
+    padding: 3px 10px;
+    border-radius: 100%;
+    font-size: 14px;
+}
+
+.sourceName {
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: 'Gellix-Regular', sans-serif;
+    /* width: 50%; */
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sourceContainer img,
+h6 {
+    margin: 0;
+    /* width: 20%; */
+    justify-content: end;
+}
+
+.active{
+    transform: rotate(180deg);
+    filter: brightness(0) invert(1);
+    margin: 0;
+    justify-content: end;
+}
+
+.sourceContainer .percent {
+    justify-content: end;
+    text-align: right;
+}
+
+.sourceContainer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.dropdown{
+    font-size: 12px;
+    line-height: 14px;
+    /* padding: 10px; */
+    display: flex;
+    /* overflow-y: scroll; */
+}
+
+.dropdown p{
+    padding: 8px;
+}

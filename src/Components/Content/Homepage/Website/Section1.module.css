@@ -1,0 +1,90 @@
+.SectionOne {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 8px;
+    margin-left: 0;
+    padding-top: 15px;
+    height: 70vh;
+}
+
+.leftElements {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #000048;
+    text-align: center;
+}
+
+.addTheme img,
+.plagarism img,
+.format img,
+.layout img,
+.media img ,
+.claims img{
+    width: 30px;
+    display: flex;
+    margin: auto;
+    transition: 0.3 ease-out;
+}
+
+.layout img,
+.media img {
+    width: 23px;
+}
+
+.plagarism,
+.format,
+.layout,
+.media,
+.claims {
+    margin-top: 20px;
+}
+
+.claims{
+    margin-top: 0;
+}
+
+.plagarism,
+.format,
+.layout,
+.media,
+.addTheme,
+.claims {
+    cursor: pointer;
+}
+
+.addTheme:hover img,
+.plagarism:hover img,
+.format:hover img,
+.layout:hover img,
+.media:hover img,
+.claims:hover img {
+    filter: brightness(0) invert(1);
+    transform: scale(0.9);
+}
+
+.addTheme:hover,
+.plagarism:hover,
+.format:hover,
+.layout:hover,
+.media:hover,
+.claims:hover {
+    background-color: #000048;
+    color: #FFFFFF;
+    border-radius: 8px;
+    width: 80px;
+    justify-content: center;
+    margin: auto;
+    padding: 2px;
+    padding-bottom: 0px;
+}
+
+.layout:hover,
+.media:hover {
+    padding-top: 8px;
+}
+
+.disabled{
+    opacity: 30%;
+}

@@ -1,0 +1,181 @@
+.container {
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    padding: 10px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.messageContainer {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.message {
+    padding: 8px;
+    /* margin-bottom: 8px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.userMessage {
+    position: relative;
+    display: inline-block;
+    align-self: flex-end;
+    padding: 8px ;
+    max-width: 80%;
+    line-height: 16px;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 2px;
+    border-top-right-radius: 0;
+    background: #2F78C4 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    font-weight: medium;
+}
+
+.userMessage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -5px;
+    border-style: solid;
+    border-width: 15px 15px 0 0;
+    border-color: #2F78C4 transparent transparent transparent;
+
+}
+
+.botMessage {
+    align-self: flex-start;
+    position: relative;
+    padding: 8px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 2px;
+    max-width: 80%;
+    text-align: left;
+    line-height: 16px;
+    font-weight: medium;
+}
+
+.botMessage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5px;
+    border-style: solid;
+    border-width: 15px 0 0 15px;
+    border-color: #FFFFFF transparent transparent transparent;
+
+}
+
+
+.botMessageContent {
+    max-width: 80%;
+}
+
+.reactions {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 80%;
+    margin-top: 8px;
+}
+
+.like, .copy, .regenerate, .dislike {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    margin-right: -5px;
+    
+    /* filter: brightness(70%); */
+    
+}
+
+
+.like:hover{
+    content: url('../../../Assets/Like.svg');
+    width: 35px;
+}
+.dislike:hover{
+    content: url('../../../Assets/Dislike.svg');
+    width: 35px;
+}
+
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 2px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.loader{
+    display: flex;
+    /* height: 100%; */
+    align-items: end;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.inputField {
+    flex: 1;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    padding: 10px;
+    padding-left: 0;
+    font-size: 12px;
+    font-weight: 500;
+    /* background: url('../../../Assets/Message.svg') no-repeat; */
+}
+
+.inputContainer:hover{
+    box-shadow: -0.5px 0 0.5px -1px #2F78C4, 0.5px 0px 0.5px -1px #2F78C4, 0px 0.7px 0.7px 0px #2F78C4;
+}
+
+.inputIcon{
+    width: 15px;
+    align-self: center;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.sendIcon {
+    cursor: pointer;
+    width: 25px;
+    margin-bottom: 0;
+}
+
+.disabled{
+    opacity: 0.5;
+    cursor:auto
+}
+
+
+.reactionIcon.active, .reactionIcon.hover{
+    fill: #000048;
+}
+
+.messageContainer::-webkit-scrollbar {
+    width: 6px;
+}
+
+.messageContainer::-webkit-scrollbar-track {
+    background-color: #F8F8F8;
+}
+
+.messageContainer::-webkit-scrollbar-thumb {
+    background-color: #000048;
+    height: 173px;
+    border-radius: 8px;
+}
+
+.messageContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #000048;
+}

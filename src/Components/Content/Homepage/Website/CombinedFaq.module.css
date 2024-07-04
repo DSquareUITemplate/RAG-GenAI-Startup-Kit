@@ -1,0 +1,167 @@
+.faqContainer {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 8px 0 0 8px;
+    padding: 20px;
+    padding-bottom: 17px;
+    color: #000048;
+    display: flex;
+    flex-direction: column;
+}
+
+.faqContent{
+    overflow-y: scroll;
+    padding-right: 20px;
+    max-height: 300.5px;
+    position: relative;
+}
+
+.cardBody{
+    padding: 15px 0;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sectionCard {
+    color: #000048;
+}
+
+
+.faqHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+.back{
+    text-decoration: underline;
+font-weight: 14px;
+line-height: 22px;
+font-weight: 600;
+letter-spacing: 0px;
+color: #2F78C4;
+cursor: pointer;
+}
+
+.back img{
+    margin-right: 1px;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hiddenIcons img {
+    width: 25px;
+    height: 15px;
+    cursor: pointer;
+    padding-bottom: 0;
+}
+
+
+.trash:hover{
+    content: url('C:/Users/909663/Downloads/genaiui_sample/genaiui_sample/Genai_UI/src/Assets/trashIcon.svg');
+    width: 35px;
+    height: 25px;
+}
+
+.edit:hover{
+    content: url('C:/Users/909663/Downloads/genaiui_sample/genaiui_sample/Genai_UI/src/Assets/edit.svg');
+    width: 35px;
+    height: 25px;
+}
+
+.dot {
+    margin-top: 8px;
+    width: 25px;
+    height: 15px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.hiddenIcons {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 8px;
+    padding: 2px;
+    height: 30px;
+}
+
+.question, .answer{
+    display: flex;
+    left: 0;
+}
+
+.dotIcon{
+    width: 10px;
+    height: 12px;
+    display: inline;
+    cursor: pointer;
+    margin-bottom: 9px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 2px;
+    padding: 2px;
+}
+
+
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0px;
+    color: #000048;
+    margin-left: 16px;
+    /* margin-top: 5px; */
+}
+
+.subtitle {
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #000048;
+    text-transform: capitalize;
+    display: inline;
+}
+
+.text {
+    font-weight: medium;
+    line-height: 19px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.faqContent::-webkit-scrollbar {
+    width: 6px;
+}
+
+.faqContent::-webkit-scrollbar-track {
+    background-color: #F8F8F8;
+    padding: 5px 5px;
+    width: 10px;
+}
+
+.faqContent::-webkit-scrollbar-thumb {
+    background-color: #000048;
+    border-radius: 8px;
+    height: 73px;
+}
+
+.faqContent::-webkit-scrollbar-thumb:hover {
+    background-color: #000048;
+}
+
+.ql-toolbar.ql-snow .ql-formats {
+    margin-right: 4px !important;
+  }
+.ql-container{
+    font-family: 'Gellix-SemiBold' !important;
+    color: #000048 !important;
+}
+

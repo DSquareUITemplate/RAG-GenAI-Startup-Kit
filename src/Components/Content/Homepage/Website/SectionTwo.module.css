@@ -1,0 +1,179 @@
+.types {
+    font-weight: medium;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #000048;
+    padding: 8px;
+    padding-left: 14px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #f2f2f2;
+    position: relative;
+}
+.fileItem label {  
+    font-size: 10px; /* Adjust the font size as needed */  
+  }  
+  
+.uploadButton {  
+    display: inline-block;  
+    padding: 8px 15px;  
+    border: 1px solid #ccc; /* Customize the color as needed */  
+    cursor: pointer;  
+    background-color: #f8f9fa; /* Light grey background, customize as needed */  
+    border-radius: 5px; /* Optional: adds rounded corners */  
+  }  
+    
+  .uploadButton:hover {  
+    background-color: #e2e6ea; /* Slightly darker grey on hover, customize as needed */  
+  }  
+  
+
+.deleteButton {  
+color: red; /* Sets the color of the "X" to red */  
+background: transparent; /* Optional: makes the button background transparent */  
+border: none; /* Optional: removes the button border */  
+cursor: pointer;
+background: transparent;  
+  border: none;  
+  cursor: pointer;  
+  padding: 0;  
+    
+  align-items: center;  
+  justify-content: center;
+}
+  
+  
+
+
+.SectionTwo {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 8px;
+    height: 70vh;
+    padding: 20px;
+    position: relative;
+    overflow-y: auto;
+    z-index: 1;
+    /* padding-right: 5px; */
+}
+
+
+.dropdownContent {
+    list-style: none;
+    padding-left: 0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #92BAE6;
+    border-radius: 8px;
+    font-size: 11px;
+    z-index: 1;
+    position: absolute;
+    width: 86%;
+    overflow: hidden;
+}
+
+
+.dropdownList {
+    padding: 8px;
+    padding-left: 14px;
+    text-align: left;
+    font-size: 11px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.dropdownList:hover {
+    background: #F7F7F5 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+}
+
+.types {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.types img {
+    width: 20px;
+    align-items: center;
+    margin-bottom: 0;
+    
+}
+
+.types.active img {
+    transform: rotate(180deg);
+}
+
+.error{
+    color: #000048;
+    font-size: 12px;
+    padding: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.done {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #000048;
+    border: 1px solid #000048;
+    padding: 8px 16px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;  
+}
+
+.doneDisabled{
+    opacity: 50%;
+    background: #d0d0ce 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #000;
+    border: 1px solid #f2f2f2;
+    padding: 8px 16px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+}
+
+.done:hover{
+    background-color: #000048;
+    color: #FFFFFF;
+    transition: ease-out 0.3s;
+}
+
+.SectionTwo::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F8F8F8;
+}
+
+.SectionTwo::-webkit-scrollbar-track {
+    background-color: #F8F8F8;
+}
+
+.SectionTwo::-webkit-scrollbar-thumb {
+    background-color: #000048;
+    border-radius: 8px;
+    margin-right: 5px;
+    height: 203px;
+}
+
+.SectionTwo::-webkit-scrollbar-thumb:hover {
+    background-color: #000048;
+}
+
+.SectionTwo::-webkit-scrollbar-corner{
+    background-color: #f2f2f2;
+    margin: 5px;
+}

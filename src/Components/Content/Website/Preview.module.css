@@ -1,0 +1,99 @@
+.modal{
+    border: 1px solid #2F78C4;
+    border-radius: 8px;
+    padding: 40px;
+    padding-right: 0;
+    
+}
+
+.modalBody{
+    overflow-y: scroll;
+    z-index: 1;
+    max-height: 70vh;
+    padding: 20px;
+    padding-top: 0;
+    padding-right: 20px;
+}
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0px;
+    color: #000048;
+}
+
+.subtitle {
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #000048;
+    text-transform: capitalize;
+}
+
+.text {
+    font-weight: medium;
+    line-height: 19px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.close {
+    text-decoration: underline;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #2F78C4;
+    text-align: right;
+    border: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    align-content: end;
+}
+
+.close img{
+    width: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.loader{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading{
+    color: #646262;
+    font-size: 20px;
+    display:inline-block;
+    clip-path: inset(0 1.2ch 0 0);
+    animation: l 1s steps(4) infinite;
+    }
+    
+    @keyframes l {
+      to {
+        clip-path: inset(0 -1ch 0 0)
+      }
+    }
+  
+
+.modalBody::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modalBody::-webkit-scrollbar-track {
+    background-color: #F8F8F8;
+}
+
+.modalBody::-webkit-scrollbar-thumb {
+    background-color: #000048;
+    border-radius: 8px;
+    height: 273px;
+}
+
+.modalBody::-webkit-scrollbar-thumb:hover {
+    background-color: #000048;
+}

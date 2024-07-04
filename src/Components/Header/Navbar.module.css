@@ -1,0 +1,76 @@
+.navbarBrand,
+.navLinks, .navTrash {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    font: normal normal;
+    color: #FFFFFF;
+}
+.navLinks{
+    padding-bottom: 10px;
+}
+
+.bgNavbar {
+    background-color: #010048;
+    color: #FFFFFF;
+    margin: 0.5vw 2vw 1vw 2vw;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 9px;
+    opacity: 1;
+    height: 55px;
+    padding-left: 10px;
+}
+.navLinks:hover, .navTrash:hover {
+    background-color: #FFFFFF;
+    color: #010048;
+    border-radius: 8px;
+}
+
+.navbarBrand:hover{
+    color: #FFFFFF;
+}
+
+.logo{
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    width: 25px;
+}
+.navbarBrand{
+    margin-right: 80px;
+    margin-top: 2px;
+    align-self: center;
+    display: flex;
+}
+.trash{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 25px;
+
+}
+.navTrash{
+    margin-top: 6px;
+}
+
+.navTrash:hover img{
+    content: url('../../Assets/Trash.svg');
+    width: 20px;
+    margin-top: 5px;
+}
+.navTrash:hover{
+    padding-bottom: 2px;
+    margin-top: 0px;
+}
+
+/* @media (min-width:767px) and (max-width:1030px) {
+    .navLinks,.navTrash{
+        margin-right: 5px;
+        font-size: 14px;
+    }
+} */
+
+@media (min-width: 1280px) {
+    
+}
+
+

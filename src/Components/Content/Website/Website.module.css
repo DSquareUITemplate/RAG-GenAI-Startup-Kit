@@ -1,0 +1,52 @@
+.website{
+    /* padding: 0; */
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 99%;
+    margin-bottom: 1vw;
+    
+}
+.webHeader{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0;
+    width: 98.9%;
+    margin-left: 0;
+    /* margin-right: 2vw; */
+}
+.secondRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+}
+.sectionOne{
+    padding-right: 0px;
+    width: 8.9vw;
+    margin-right: 1vw;
+    /* height: 90%; */
+}
+.sectionTwo{
+    padding-right: 0px;
+    width: 25vw;
+    margin-right: 1vw;
+}
+.sectionThree{
+    width: 46vw;
+    /* margin-right: 1vw; */
+}
+
+.combinedFaq{
+    width: 70vw;
+}
+
+.claims{
+    width: 86.4vw;
+}
+
+
+.sectionFour{
+    width: 25vw;
+    margin-right: 1vw;
+}
+

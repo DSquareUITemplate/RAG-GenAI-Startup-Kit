@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_41663" data-name="Group 41663" transform="translate(0.246 0.245)">
+    <rect id="Rectangle_17757" data-name="Rectangle 17757" width="32" height="32" transform="translate(-0.246 -0.245)" fill="none"/>
+    <g id="Group_41691" data-name="Group 41691" transform="translate(-4.745 -3.537)">
+      <g id="Group_41662" data-name="Group 41662" transform="translate(3.975 9.276)">
+        <path id="Bottom_Alignment" data-name="Bottom Alignment" d="M19.023,20.027H5a1,1,0,0,0,0,2H19.023a1,1,0,0,0,0-2ZM11.3,17.734a1,1,0,0,0,.331.21.942.942,0,0,0,.761,0,1,1,0,0,0,.331-.21l4.006-4.006a1.006,1.006,0,1,0-1.422-1.422l-2.293,2.3V3a1,1,0,0,0-2,0V14.609l-2.293-2.3A1.006,1.006,0,0,0,7.3,13.728Z" transform="translate(12.024 -2)" fill="#000048"/>
+        <path id="top_alignment" data-name="top alignment" d="M12.723,6.3a1.035,1.035,0,0,0-1.422,0L7.3,10.3a1.006,1.006,0,1,0,1.422,1.422l2.293-2.3V21.029a1,1,0,0,0,2,0V9.421l2.293,2.3A1.006,1.006,0,1,0,16.729,10.3Zm6.3-4.3H5A1,1,0,1,0,5,4H19.023a1,1,0,0,0,0-2Z" transform="translate(-3 -2)" fill="#000048"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,112 @@
+.faqcard {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #B7B7B7;
+    border-radius: 8px;
+    padding: 0px;
+}
+
+.faqCardBody {
+    padding: 8px;
+    padding-top: 0;
+}
+
+.cardImage{
+    /* position: relative; */
+    filter: brightness(50%);
+}
+
+.imageContainer{
+    position: relative;
+}
+
+.checkbox{
+    appearance: none;
+    background-color: #FFFFFF;
+    display: inline-block;
+    border: 1px solid #2F78C4;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    z-index: 1;
+    right: 5px;
+    top: 6px;
+    /* margin: 5px; */
+    transition: 0.3s all ease-in-out;
+    overflow: hidden;
+    pointer-events: auto;
+}
+
+.hideCheckbox{
+    display: none;
+}
+
+.checkbox:checked{
+    background-color: #2F78C4;
+    transition: 0.3s all ease-in-out;
+    
+}
+
+.checkbox:checked::before{
+    transform: scale(1);  
+}
+
+.checkbox::before{
+    border: 0px;
+    border-color: #2F78C4;
+    position: absolute;
+    content: url('C:/Users/909663/Downloads/genaiui_sample/genaiui_sample/Genai_UI/src/Assets/Right.svg');
+    /* content: '\2713'; */
+    font-size: 11px;
+    line-height: 12px;
+    padding-left: 2px;
+    color: #FFFFFF;
+    transform: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.overlay{
+    position: absolute;
+    z-index: 2;
+}
+
+.selectedCard, .overlay{
+    background-color: #E9F2FE;
+}
+
+.title {
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #000048;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle {
+    color: #000048;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 800;
+}
+
+.text {
+    color: #000048;
+    font-size: 10px;
+    font-weight: medium;
+    line-height: 14px;
+}
+
+.link {
+    font-weight: medium;
+    line-height: 14px;
+    font-size: 10px;
+    color: #2F78C4;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.disabled{
+    opacity: 30%;
+}
